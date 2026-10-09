@@ -1,0 +1,419 @@
+[
+  {
+    "id": "aimlapi",
+    "name": "AIMLAPI",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://aimlapi.com/models/google-gemini-3-1-flash-image-preview",
+      "https://aimlapi.com/models/google-nano-banana-2-1",
+      "https://aimlapi.com/models/google-nano-banana-pro",
+      "https://aimlapi.com/models/gpt-image-2",
+      "https://aimlapi.com/models/gpt-image-2-5-flare",
+      "https://aimlapi.com/models/gpt-image-2-5-sunburst",
+      "https://aimlapi.com/models/grok-imagine-image",
+      "https://aimlapi.com/models/seedream-5-0-pro"
+    ]
+  },
+  {
+    "id": "atlascloud",
+    "name": "AtlasCloud",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://www.atlascloud.ai/zh/pricing/models?type=image"
+    ]
+  },
+  {
+    "id": "budgetpixel",
+    "name": "BudgetPixel",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://budgetpixel.com/api",
+      "https://budgetpixel.com/models/gpt-image-2.5-sunburst",
+      "https://budgetpixel.com/models/nano-banana-2.1",
+      "https://budgetpixel.com/pricing",
+      "https://docs.budgetpixel.com/api-reference/google/generate-image-with-nano-banana-2",
+      "https://docs.budgetpixel.com/api-reference/google/generate-image-with-nano-banana-pro",
+      "https://docs.budgetpixel.com/api-reference/openai/generate-image-with-gpt-image-2",
+      "https://docs.budgetpixel.com/api-reference/openai/generate-image-with-gpt-image-25-flare",
+      "https://docs.budgetpixel.com/api-reference/openai/generate-image-with-gpt-image-25-sunburst"
+    ]
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare AI",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://developers.cloudflare.com/ai/models/google/nano-banana-2/",
+      "https://developers.cloudflare.com/ai/models/google/nano-banana-pro/",
+      "https://developers.cloudflare.com/ai/models/openai/gpt-image-2.5-flare/",
+      "https://developers.cloudflare.com/ai/models/openai/gpt-image-2.5-sunburst/",
+      "https://developers.cloudflare.com/ai/models/openai/gpt-image-2/"
+    ]
+  },
+  {
+    "id": "fal",
+    "name": "fal.ai",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://fal.ai/gpt-image-2.5",
+      "https://fal.ai/models/bytedance/seedream/v5/pro/text-to-image",
+      "https://fal.ai/models/fal-ai/nano-banana-2",
+      "https://fal.ai/models/fal-ai/nano-banana-2/edit",
+      "https://fal.ai/models/fal-ai/nano-banana-pro",
+      "https://fal.ai/models/fal-ai/nano-banana-pro/edit",
+      "https://fal.ai/models/openai/gpt-image-2",
+      "https://fal.ai/models/xai/grok-imagine-image",
+      "https://fal.ai/nano-banana-2.1"
+    ]
+  },
+  {
+    "id": "getapi",
+    "name": "GetAPI",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://www.getapi.one/api/pricing",
+      "https://www.getapi.one/api/status",
+      "https://www.getapi.one/catalog/gpt-image-2.5-sunburst/",
+      "https://www.getapi.one/pricing"
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google Gemini API",
+    "modelKeys": [
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/pricing"
+    ]
+  },
+  {
+    "id": "grsai",
+    "name": "Grsai",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://grsai.ai/zh/dashboard/models",
+      "https://grsai.com/zh/dashboard/models"
+    ]
+  },
+  {
+    "id": "imgapi",
+    "name": "ImgAPI",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://imgapi.vip/banana-pro",
+      "https://imgapi.vip/banana2",
+      "https://imgapi.vip/banana2-1",
+      "https://imgapi.vip/gpt-image2",
+      "https://imgapi.vip/gpt-image2.5",
+      "https://imgapi.vip/models"
+    ]
+  },
+  {
+    "id": "kie",
+    "name": "Kie.ai",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://docs.kie.ai/market/gpt/gpt-image-2-5-flare-text-to-image.md",
+      "https://kie.ai/gpt-image-2-5",
+      "https://kie.ai/gpt-image-2?model=gpt-image-2-image-to-image",
+      "https://kie.ai/gpt-image-2?model=gpt-image-2-text-to-image",
+      "https://kie.ai/nano-banana-2",
+      "https://kie.ai/nano-banana-pro",
+      "https://kie.ai/pricing",
+      "https://kie.ai/seedream-5-0-pro"
+    ]
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst"
+    ],
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare",
+      "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "https://developers.openai.com/api/docs/pricing#image-generation"
+    ]
+  },
+  {
+    "id": "openlux",
+    "name": "OpenLux",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://www.openlux.ai/_next/static/chunks/01vw6u-77ubu9.js",
+      "https://www.openlux.ai/api/pricing",
+      "https://www.openlux.ai/api/status",
+      "https://www.openlux.ai/pricing/model/_?tab=image&name=gemini-3-pro-image",
+      "https://www.openlux.ai/pricing/model/_?tab=image&name=gemini-3.1-flash-image",
+      "https://www.openlux.ai/pricing/model/_?tab=image&name=gpt-image-2",
+      "https://www.openlux.ai/pricing/model/_?tab=image&name=gpt-image-2.5-flare",
+      "https://www.openlux.ai/pricing/model/_?tab=image&name=gpt-image-2.5-sunburst"
+    ]
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://openrouter.ai/api/v1/images/models/openai/gpt-image-2.5-flare/endpoints",
+      "https://openrouter.ai/api/v1/images/models/openai/gpt-image-2.5-sunburst/endpoints",
+      "https://openrouter.ai/api/v1/images/models/openai/gpt-image-2/endpoints",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/bytedance-seed/seedream-5-0-pro?view=api",
+      "https://openrouter.ai/google/gemini-3-pro-image",
+      "https://openrouter.ai/google/gemini-3.1-flash-image",
+      "https://openrouter.ai/google/gemini-nano-banana-2.1",
+      "https://openrouter.ai/openai/gpt-image-2",
+      "https://openrouter.ai/openai/gpt-image-2.5-flare"
+    ]
+  },
+  {
+    "id": "pika",
+    "name": "Pika API",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro"
+    ],
+    "sources": [
+      "https://dev.pika.art/models/google/gemini-3-pro-image/text-to-image/pricing",
+      "https://dev.pika.art/models/google/gemini-3.1-flash-image/text-to-image/pricing",
+      "https://dev.pika.art/models/google/gemini-nano-banana-2.1/text-to-image/pricing",
+      "https://dev.pika.art/models/openai/gpt-image-2.5-flare/text-to-image/pricing",
+      "https://dev.pika.art/models/openai/gpt-image-2.5-sunburst/text-to-image/pricing",
+      "https://dev.pika.art/models/openai/gpt-image-2/text-to-image/pricing"
+    ]
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://replicate.com/bytedance/seedream-5-pro/readme",
+      "https://replicate.com/google/nano-banana-2",
+      "https://replicate.com/google/nano-banana-2.1",
+      "https://replicate.com/google/nano-banana-pro",
+      "https://replicate.com/openai/gpt-image-2",
+      "https://replicate.com/openai/gpt-image-2.5-flare",
+      "https://replicate.com/openai/gpt-image-2.5-sunburst",
+      "https://replicate.com/xai/grok-imagine-image/readme"
+    ]
+  },
+  {
+    "id": "roko",
+    "name": "Roko API",
+    "modelKeys": [
+      "gpt-image-2.5",
+      "nano-banana-2.1"
+    ],
+    "sources": [
+      "https://rokoapi.com/en/models/nano-banana-2.1/",
+      "https://rokoapi.com/pricing/"
+    ]
+  },
+  {
+    "id": "routerapi",
+    "name": "RouterAPI",
+    "modelKeys": [
+      "gpt-image-2.5"
+    ],
+    "sources": [
+      "https://routerapi.net/api/pricing",
+      "https://routerapi.net/api/status",
+      "https://routerapi.net/pricing"
+    ]
+  },
+  {
+    "id": "runware",
+    "name": "Runware",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://runware.ai/docs/models/google-nano-banana-2",
+      "https://runware.ai/docs/models/google-nano-banana-2-1",
+      "https://runware.ai/docs/models/google-nano-banana-pro",
+      "https://runware.ai/docs/models/openai-gpt-image-2",
+      "https://runware.ai/docs/models/openai-gpt-image-2-5-flare",
+      "https://runware.ai/docs/models/openai-gpt-image-2-5-sunburst",
+      "https://runware.ai/models/bytedance-seedream-5-0-pro"
+    ]
+  },
+  {
+    "id": "sosana",
+    "name": "Sosana",
+    "modelKeys": [
+      "gpt-image-2.5"
+    ],
+    "sources": [
+      "https://www.sosana.art/pricing/gpt-image"
+    ]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel AI Gateway",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://ai-gateway.vercel.sh/v1/models",
+      "https://vercel.com/ai-gateway/models/gemini-nano-banana-2.1",
+      "https://vercel.com/ai-gateway/models/grok-imagine-image",
+      "https://vercel.com/ai-gateway/models/seedream-5.0-pro"
+    ]
+  },
+  {
+    "id": "wavespeed",
+    "name": "WaveSpeedAI",
+    "modelKeys": [
+      "gpt-image-2",
+      "gpt-image-2.5-flare",
+      "gpt-image-2.5-sunburst",
+      "grok-image",
+      "nano-banana-2",
+      "nano-banana-2.1",
+      "nano-banana-pro",
+      "seedream-5.0-pro"
+    ],
+    "sources": [
+      "https://wavespeed.ai/models/bytedance/seedream-v5.0-pro",
+      "https://wavespeed.ai/models/google/nano-banana-2.1/text-to-image",
+      "https://wavespeed.ai/models/google/nano-banana-2/edit",
+      "https://wavespeed.ai/models/google/nano-banana-2/text-to-image",
+      "https://wavespeed.ai/models/google/nano-banana-2/text-to-image-fast",
+      "https://wavespeed.ai/models/google/nano-banana-pro/edit",
+      "https://wavespeed.ai/models/google/nano-banana-pro/text-to-image",
+      "https://wavespeed.ai/models/openai/gpt-image-2.5-flare/text-to-image",
+      "https://wavespeed.ai/models/openai/gpt-image-2.5-sunburst/text-to-image",
+      "https://wavespeed.ai/models/openai/gpt-image-2/edit",
+      "https://wavespeed.ai/models/openai/gpt-image-2/text-to-image",
+      "https://wavespeed.ai/models/x-ai/grok-imagine-image/text-to-image",
+      "https://wavespeed.ai/pricing"
+    ]
+  },
+  {
+    "id": "zework",
+    "name": "Zework",
+    "modelKeys": [
+      "gpt-image-2.5-sunburst"
+    ],
+    "sources": [
+      "https://api.zework.cn/pricing"
+    ]
+  }
+]

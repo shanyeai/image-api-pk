@@ -1,0 +1,17 @@
+name: 待核实、移出或关系信息
+description: 附公开证据申请核对或修正，不凭单条反馈认定服务商跑路。
+title: "[资料核对] "
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 涉及渠道或文件
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 事实、公开来源与发生日期
+      description: 说明需要修正的字段；请勿提交私人账号、账单、Key 或用户图片。
+    validations:
+      required: true

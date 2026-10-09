@@ -1,0 +1,28 @@
+name: 渠道价格 / 免费额度纠错
+description: 提交公开来源及精确规格，帮助核对目录。
+title: "[渠道纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: "请只提供公开资料，不要填写 API Key、Token、Cookie 或个人账单。"
+  - type: input
+    id: provider
+    attributes:
+      label: 渠道与模型 / SKU
+      placeholder: 渠道名称、精确模型 ID、尺寸与质量
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方来源网址
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 当前内容、正确内容与核对日期
+      description: 请写明计费单位；免费网页资格与免费 API 资格分别说明。
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+name: 补充图片 API 渠道
+description: 提供公开来源、支持型号及适用规格。
+title: "[渠道收录] "
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: 渠道名称与官网
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 精确型号、规格、计费与核对日期
+      description: 请区分官网报价、实际扣费、网页免费与免费 API，不提交 Key 或个人账单。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 公开来源网址
+      placeholder: https://
+    validations:
+      required: true

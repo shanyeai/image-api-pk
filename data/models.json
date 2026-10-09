@@ -1,0 +1,1131 @@
+[
+  {
+    "key": "nano-banana-2",
+    "name": "Nano Banana 2",
+    "description": "Google 图像生成模型；Yunwu 的营销名称到模型 ID 映射仍待确认。",
+    "defaultScenarioKey": "image-t2i-1k-1",
+    "scenarios": [
+      {
+        "key": "image-t2i-05k-1",
+        "name": "文生图 · 0.5K · 1 张",
+        "description": "文生图，输出 1 张，0.5K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "0.5K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-1k-1",
+        "name": "文生图 · 1K · 1 张",
+        "description": "文生图，输出 1 张，1K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-2k-1",
+        "name": "文生图 · 2K · 1 张",
+        "description": "文生图，输出 1 张，2K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-4k-1",
+        "name": "文生图 · 4K · 1 张",
+        "description": "文生图，输出 1 张，4K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-edit-1k-1",
+        "name": "图生图 / 编辑 · 1K · 1 张",
+        "description": "图生图 / 编辑，输出 1 张，1K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "image-edit-2k-1",
+        "name": "图生图 / 编辑 · 2K · 1 张",
+        "description": "图生图 / 编辑，输出 1 张，2K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "image-edit-4k-1",
+        "name": "图生图 / 编辑 · 4K · 1 张",
+        "description": "图生图 / 编辑，输出 1 张，4K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      }
+    ]
+  },
+  {
+    "key": "nano-banana-pro",
+    "name": "Nano Banana Pro",
+    "description": "同一模型包含标准、开发者、Ultra、Ext 与 Official 等不同渠道。",
+    "defaultScenarioKey": "image-t2i-1k-1",
+    "scenarios": [
+      {
+        "key": "image-t2i-1k-1",
+        "name": "文生图 · 1K · 1 张",
+        "description": "文生图，输出 1 张，1K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-2k-1",
+        "name": "文生图 · 2K · 1 张",
+        "description": "文生图，输出 1 张，2K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-resolution-unspecified-1",
+        "name": "文生图 · 默认规格",
+        "description": "文生图，输出 1 张，规格未明确",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": null,
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-4k-1",
+        "name": "文生图 · 4K · 1 张",
+        "description": "文生图，输出 1 张，4K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-edit-1k-1",
+        "name": "图生图 / 编辑 · 1K · 1 张",
+        "description": "图生图 / 编辑，输出 1 张，1K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "image-edit-2k-1",
+        "name": "图生图 / 编辑 · 2K · 1 张",
+        "description": "图生图 / 编辑，输出 1 张，2K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "image-edit-4k-1",
+        "name": "图生图 / 编辑 · 4K · 1 张",
+        "description": "图生图 / 编辑，输出 1 张，4K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      }
+    ]
+  },
+  {
+    "key": "gpt-image-2",
+    "name": "GPT Image 2",
+    "description": "按尺寸、质量、能力及渠道拆分；存在供应状态和计价公式差异。",
+    "defaultScenarioKey": "gpt-image-2-t2i-1024-medium",
+    "scenarios": [
+      {
+        "key": "gpt-image-2-t2i-1024-medium",
+        "name": "文生图 · 1024×1024 · Medium",
+        "description": "文生图，输出 1 张，1024×1024，Medium",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1024",
+          "quality": "Medium"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1024-low",
+        "name": "文生图 · 1024×1024 · Low",
+        "description": "文生图，输出 1 张，1024×1024，Low",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1024",
+          "quality": "Low"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1024-high",
+        "name": "文生图 · 1024×1024 · High",
+        "description": "文生图，输出 1 张，1024×1024，High",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1024",
+          "quality": "High"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1024x1536-medium",
+        "name": "文生图 · 1024×1536 · Medium",
+        "description": "文生图，输出 1 张，1024×1536，Medium",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1536",
+          "quality": "Medium"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1024x1536-low",
+        "name": "文生图 · 1024×1536 · Low",
+        "description": "文生图，输出 1 张，1024×1536，Low",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1536",
+          "quality": "Low"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1024x1536-high",
+        "name": "文生图 · 1024×1536 · High",
+        "description": "文生图，输出 1 张，1024×1536，High",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1536",
+          "quality": "High"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1536x1024-medium",
+        "name": "文生图 · 1536×1024 · Medium",
+        "description": "文生图，输出 1 张，1536×1024，Medium",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1536×1024",
+          "quality": "Medium"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1536x1024-low",
+        "name": "文生图 · 1536×1024 · Low",
+        "description": "文生图，输出 1 张，1536×1024，Low",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1536×1024",
+          "quality": "Low"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1536x1024-high",
+        "name": "文生图 · 1536×1024 · High",
+        "description": "文生图，输出 1 张，1536×1024，High",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1536×1024",
+          "quality": "High"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1024-medium",
+        "name": "图生图 / 编辑 · 1024×1024 · Medium",
+        "description": "图生图 / 编辑，输出 1 张，1024×1024，Medium；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1024",
+          "quality": "Medium",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1024-low",
+        "name": "图生图 / 编辑 · 1024×1024 · Low",
+        "description": "图生图 / 编辑，输出 1 张，1024×1024，Low；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1024",
+          "quality": "Low",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1024-high",
+        "name": "图生图 / 编辑 · 1024×1024 · High",
+        "description": "图生图 / 编辑，输出 1 张，1024×1024，High；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1024",
+          "quality": "High",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1024x1536-medium",
+        "name": "图生图 / 编辑 · 1024×1536 · Medium",
+        "description": "图生图 / 编辑，输出 1 张，1024×1536，Medium；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1536",
+          "quality": "Medium",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1024x1536-low",
+        "name": "图生图 / 编辑 · 1024×1536 · Low",
+        "description": "图生图 / 编辑，输出 1 张，1024×1536，Low；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1536",
+          "quality": "Low",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1024x1536-high",
+        "name": "图生图 / 编辑 · 1024×1536 · High",
+        "description": "图生图 / 编辑，输出 1 张，1024×1536，High；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1024×1536",
+          "quality": "High",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1536x1024-medium",
+        "name": "图生图 / 编辑 · 1536×1024 · Medium",
+        "description": "图生图 / 编辑，输出 1 张，1536×1024，Medium；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1536×1024",
+          "quality": "Medium",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1536x1024-low",
+        "name": "图生图 / 编辑 · 1536×1024 · Low",
+        "description": "图生图 / 编辑，输出 1 张，1536×1024，Low；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1536×1024",
+          "quality": "Low",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1536x1024-high",
+        "name": "图生图 / 编辑 · 1536×1024 · High",
+        "description": "图生图 / 编辑，输出 1 张，1536×1024，High；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1536×1024",
+          "quality": "High",
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "gpt-image-2-t2i-1k-quality-unspecified",
+        "name": "文生图 · 1K · 质量未明确",
+        "description": "文生图，输出 1 张，1K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-1k-quality-unspecified",
+        "name": "图生图 / 编辑 · 1K · 质量未明确",
+        "description": "图生图 / 编辑，输出 1 张，1K；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      },
+      {
+        "key": "image-t2i-2k-1",
+        "name": "文生图 · 2K · 质量未明确",
+        "description": "文生图，输出 1 张，2K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null
+        }
+      },
+      {
+        "key": "image-t2i-4k-1",
+        "name": "文生图 · 4K · 质量未明确",
+        "description": "文生图，输出 1 张，4K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null
+        }
+      },
+      {
+        "key": "gpt-image-2-edit-spec-unspecified",
+        "name": "图生图 / 编辑 · 输出规格未明确",
+        "description": "图生图 / 编辑，输出 1 张，未明确；输入图按实际用量计费",
+        "capability": "image-edit",
+        "specs": {
+          "images": 1,
+          "resolution": "未明确",
+          "quality": null,
+          "inputImages": 1,
+          "inputResolution": "按实际输入"
+        }
+      }
+    ]
+  },
+  {
+    "key": "gpt-image-2.5-sunburst",
+    "name": "GPT Image 2.5 Sunburst",
+    "description": "公开网页与渠道公共价格接口；不是全网穷尽清单。核验价格不等于实测模型真实性或可用性。",
+    "defaultScenarioKey": "sunburst-t2i-1k-medium",
+    "scenarios": [
+      {
+        "key": "sunburst-t2i-1k-low",
+        "name": "1K · low",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "low",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-1k-medium",
+        "name": "1K · medium",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "medium",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-1k-high",
+        "name": "1K · high",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "high",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-1k-xhigh",
+        "name": "1K · xhigh",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "xhigh",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-1k-max",
+        "name": "1K · max",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "max",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-1k-auto",
+        "name": "1K · auto",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "auto",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-1k-quality-unspecified",
+        "name": "1K · 画质未指定",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": null,
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-low",
+        "name": "2K · low",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "low",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-medium",
+        "name": "2K · medium",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "medium",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-high",
+        "name": "2K · high",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "high",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-xhigh",
+        "name": "2K · xhigh",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "xhigh",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-max",
+        "name": "2K · max",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "max",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-auto",
+        "name": "2K · auto",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "auto",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-2k-quality-unspecified",
+        "name": "2K · 画质未指定",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": null,
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-low",
+        "name": "4K · low",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "low",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-medium",
+        "name": "4K · medium",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "medium",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-high",
+        "name": "4K · high",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "high",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-xhigh",
+        "name": "4K · xhigh",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "xhigh",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-max",
+        "name": "4K · max",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "max",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-auto",
+        "name": "4K · auto",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "auto",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "sunburst-t2i-4k-quality-unspecified",
+        "name": "4K · 画质未指定",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": null,
+          "outputs": 1
+        }
+      }
+    ]
+  },
+  {
+    "key": "gpt-image-2.5-flare",
+    "name": "GPT Image 2.5 Flare",
+    "description": "GPT Image 2.5 Flare 图片生成模型；按各渠道公开的分辨率与计费条件比较。",
+    "defaultScenarioKey": "flare-t2i-1k-quality-unspecified",
+    "scenarios": [
+      {
+        "key": "flare-t2i-1k-low",
+        "name": "1K · low",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "low",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-1k-medium",
+        "name": "1K · medium",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "medium",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-1k-high",
+        "name": "1K · high",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "high",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-1k-xhigh",
+        "name": "1K · xhigh",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "xhigh",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-1k-max",
+        "name": "1K · max",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "max",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-1k-auto",
+        "name": "1K · auto",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": "auto",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-1k-quality-unspecified",
+        "name": "1K · 画质未指定",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": null,
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-low",
+        "name": "2K · low",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "low",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-medium",
+        "name": "2K · medium",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "medium",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-high",
+        "name": "2K · high",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "high",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-xhigh",
+        "name": "2K · xhigh",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "xhigh",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-max",
+        "name": "2K · max",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "max",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-auto",
+        "name": "2K · auto",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": "auto",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-2k-quality-unspecified",
+        "name": "2K · 画质未指定",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": null,
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-low",
+        "name": "4K · low",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "low",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-medium",
+        "name": "4K · medium",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "medium",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-high",
+        "name": "4K · high",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "high",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-xhigh",
+        "name": "4K · xhigh",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "xhigh",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-max",
+        "name": "4K · max",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "max",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-auto",
+        "name": "4K · auto",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": "auto",
+          "outputs": 1
+        }
+      },
+      {
+        "key": "flare-t2i-4k-quality-unspecified",
+        "name": "4K · 画质未指定",
+        "description": "渠道分辨率档位；按实际输入输出计费的总价取决于 Token 用量。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": null,
+          "outputs": 1
+        }
+      }
+    ]
+  },
+  {
+    "key": "gpt-image-2.5",
+    "name": "GPT Image 2.5",
+    "description": "ImgAPI 默认渠道：1K / 2K / 4K 为 ¥0.03 / 0.08 / 0.12 每张；Low、Medium、High、Auto 同价。价格与质量范围已于 2026-10-09 核对，未实测扣费。",
+    "defaultScenarioKey": "gpt-image-2.5-t2i-1k",
+    "scenarios": [
+      {
+        "key": "gpt-image-2.5-t2i-1k",
+        "name": "1K",
+        "description": "ImgAPI 默认渠道：1K / 2K / 4K 为 ¥0.03 / 0.08 / 0.12 每张；Low、Medium、High、Auto 同价。价格与质量范围已于 2026-10-09 核对，未实测扣费。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "1K",
+          "quality": null,
+          "outputs": 1
+        }
+      },
+      {
+        "key": "gpt-image-2.5-t2i-2k",
+        "name": "2K",
+        "description": "ImgAPI 默认渠道：1K / 2K / 4K 为 ¥0.03 / 0.08 / 0.12 每张；Low、Medium、High、Auto 同价。价格与质量范围已于 2026-10-09 核对，未实测扣费。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "2K",
+          "quality": null,
+          "outputs": 1
+        }
+      },
+      {
+        "key": "gpt-image-2.5-t2i-4k",
+        "name": "4K",
+        "description": "ImgAPI 默认渠道：1K / 2K / 4K 为 ¥0.03 / 0.08 / 0.12 每张；Low、Medium、High、Auto 同价。价格与质量范围已于 2026-10-09 核对，未实测扣费。",
+        "capability": "text-to-image",
+        "specs": {
+          "resolution": "4K",
+          "quality": null,
+          "outputs": 1
+        }
+      }
+    ]
+  },
+  {
+    "key": "nano-banana-2.1",
+    "name": "Banana 2.1",
+    "description": "Google Nano Banana 2.1；仅收录明确标注 2.1 型号的渠道，不沿用 Banana 2 报价。",
+    "defaultScenarioKey": "nano-banana-2.1-t2i-1k",
+    "scenarios": [
+      {
+        "key": "nano-banana-2.1-t2i-1k",
+        "name": "1K",
+        "description": "文生图，输出 1 张，1K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null
+        }
+      },
+      {
+        "key": "nano-banana-2.1-t2i-2k",
+        "name": "2K",
+        "description": "文生图，输出 1 张，2K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null
+        }
+      },
+      {
+        "key": "nano-banana-2.1-t2i-4k",
+        "name": "4K",
+        "description": "文生图，输出 1 张，4K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null
+        }
+      }
+    ]
+  },
+  {
+    "key": "grok-image",
+    "name": "Grok Image",
+    "description": "xAI Grok Imagine Image 标准版；不混入 Quality 或 2.0。",
+    "defaultScenarioKey": "grok-image-t2i-default",
+    "scenarios": [
+      {
+        "key": "grok-image-t2i-default",
+        "name": "默认规格",
+        "description": "文生图，输出 1 张，规格未明确",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": null,
+          "quality": null
+        }
+      },
+      {
+        "key": "grok-image-t2i-1k",
+        "name": "1K",
+        "description": "文生图，输出 1 张，1K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null
+        }
+      },
+      {
+        "key": "grok-image-t2i-2k",
+        "name": "2K",
+        "description": "文生图，输出 1 张，2K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null
+        }
+      },
+      {
+        "key": "grok-image-t2i-4k",
+        "name": "4K",
+        "description": "文生图，输出 1 张，4K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "4K",
+          "quality": null
+        }
+      }
+    ]
+  },
+  {
+    "key": "seedream-5.0-pro",
+    "name": "Seedream 5.0 Pro",
+    "description": "ByteDance Seedream 5.0 Pro；不混入 Lite 或 Flash。",
+    "defaultScenarioKey": "seedream-5.0-pro-t2i-1k",
+    "scenarios": [
+      {
+        "key": "seedream-5.0-pro-t2i-1k",
+        "name": "1K",
+        "description": "文生图，输出 1 张，1K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1K",
+          "quality": null
+        }
+      },
+      {
+        "key": "seedream-5.0-pro-t2i-15k",
+        "name": "1.5K",
+        "description": "文生图，输出 1 张，1.5K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "1.5K",
+          "quality": null
+        }
+      },
+      {
+        "key": "seedream-5.0-pro-t2i-2k",
+        "name": "2K",
+        "description": "文生图，输出 1 张，2K",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": "2K",
+          "quality": null
+        }
+      },
+      {
+        "key": "seedream-5.0-pro-t2i-default",
+        "name": "默认规格",
+        "description": "文生图，输出 1 张，规格未明确",
+        "capability": "text-to-image",
+        "specs": {
+          "images": 1,
+          "resolution": null,
+          "quality": null
+        }
+      }
+    ]
+  }
+]

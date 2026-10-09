@@ -1,0 +1,11 @@
+node_modules/
+.env*
+*.db
+*.db-*
+*.sqlite*
+*.log
+work/
+.codex/
+.vercel/
+.wrangler/
+data/.incoming/

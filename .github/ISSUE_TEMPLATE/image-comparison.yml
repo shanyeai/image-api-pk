@@ -1,0 +1,24 @@
+name: 图片对比问题 / 新样本建议
+description: 补充可复核的图片场景、来源及参数。
+title: "[图片对比] "
+body:
+  - type: markdown
+    attributes:
+      value: "仅提交有权公开的图片和资料；不要包含私有地址、密钥或个人数据。"
+  - type: input
+    id: model
+    attributes:
+      label: 模型与渠道
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: 场景、提示词、参数与公开图片来源
+      description: 注明生成次数、是否选取最好结果，以及失败记录。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 发现的问题或希望增加的对比

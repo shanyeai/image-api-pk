@@ -1,0 +1,65 @@
+[
+  {
+    "provider": "apimart",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "autofish",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "findingapi",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "hopbase",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "junliai",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "maizi",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "route1",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "uselg",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  },
+  {
+    "provider": "yunwu",
+    "scope": "price_catalog",
+    "status": "removed_by_maintainer",
+    "reason": "已由维护者移出网站公开价格比较；未提供可公开的详细原因，不据此判断服务质量。",
+    "removedAt": null
+  }
+]

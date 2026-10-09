@@ -1,0 +1,3005 @@
+{
+  "checkedAt": "2026-10-08",
+  "channels": [
+    {
+      "id": "free-01",
+      "name": "Leonardo",
+      "url": "https://app.leonardo.ai/generate",
+      "dailyCredits": 150,
+      "quota": "150 Tokens/日 · 每24小时；不累计",
+      "unit": "Tokens",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "Nano Banana",
+          "modelKey": "nano-banana",
+          "costs": [
+            40
+          ],
+          "use": "全部生成",
+          "access": "free",
+          "source": "https://intercom.help/leonardo-ai/en/articles/12143945-nano-banana-gemini-2-5-flash-image",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://intercom.help/leonardo-ai/en/articles/12143945-nano-banana-gemini-2-5-flash-image",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-05",
+      "name": "绿叶AI",
+      "url": "https://lyaiapp.com/",
+      "dailyCredits": null,
+      "quota": "20 积分/一次性 · 新用户注册奖励；页面未称每日额度",
+      "unit": "积分",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "Seedream 5.0 Pro",
+          "modelKey": "seedream-5.0-pro",
+          "costs": [
+            50,
+            100
+          ],
+          "use": "模型中心积分参考",
+          "access": "unknown",
+          "source": "https://lyaiapp.com/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://lyaiapp.com/",
+            "checkedAt": "2026-10-07",
+            "note": "模型卡显示在线，但注册赠送20积分未逐项说明哪些模型可用；付费价格页写全部模型与工具通用，不能据此推断免费模型资格。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 50
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 100
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            8,
+            12,
+            18
+          ],
+          "use": "模型中心线路积分参考；另有1K 10积分线路",
+          "access": "unknown",
+          "source": "https://lyaiapp.com/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://lyaiapp.com/",
+            "checkedAt": "2026-10-07",
+            "note": "模型卡显示在线，但注册赠送20积分未逐项说明哪些模型可用；付费价格页写全部模型与工具通用，不能据此推断免费模型资格。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 18
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            14,
+            17,
+            20
+          ],
+          "use": "模型中心线路积分参考",
+          "access": "unknown",
+          "source": "https://lyaiapp.com/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://lyaiapp.com/",
+            "checkedAt": "2026-10-07",
+            "note": "模型卡显示在线，但注册赠送20积分未逐项说明哪些模型可用；付费价格页写全部模型与工具通用，不能据此推断免费模型资格。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 14
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 17
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 · low",
+          "modelKey": "gpt-image-2.5",
+          "costs": [
+            3,
+            4,
+            5
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "unknown",
+          "source": "https://lyaiapp.com/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://lyaiapp.com/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "赠送积分的模型适用范围未公开"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            },
+            {
+              "resolution": "2K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 · medium",
+          "modelKey": "gpt-image-2.5",
+          "costs": [
+            6,
+            12,
+            20
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "unknown",
+          "source": "https://lyaiapp.com/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://lyaiapp.com/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "赠送积分的模型适用范围未公开"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            },
+            {
+              "resolution": "2K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": "4K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-07",
+      "name": "Lovart",
+      "url": "https://www.lovart.ai/",
+      "dailyCredits": 30,
+      "quota": "30 积分/日 · Free列明确30/d；付费套餐按账期重置",
+      "unit": "积分",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            14,
+            14,
+            24
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "unknown",
+          "source": "https://www.lovart.ai/zh/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://www.lovart.ai/zh/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "Free 方案只写可使用免费模型，未逐项标记每个模型的免费资格；不能把所有付费套餐热门模型都算作免费。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 14
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 14
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 24
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            5,
+            8,
+            12,
+            18
+          ],
+          "use": "512P / 1K / 2K / 4K",
+          "access": "unknown",
+          "source": "https://www.lovart.ai/zh/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://www.lovart.ai/zh/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "Free 方案只写可使用免费模型，未逐项标记每个模型的免费资格；不能把所有付费套餐热门模型都算作免费。"
+          },
+          "specifications": [
+            {
+              "resolution": "512P",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            },
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 18
+            }
+          ]
+        },
+        {
+          "name": "Seedream 5.0 Pro",
+          "modelKey": "seedream-5.0-pro",
+          "costs": [
+            8,
+            16
+          ],
+          "use": "1K / 2K · 无参考图",
+          "access": "unknown",
+          "source": "https://www.lovart.ai/zh/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://www.lovart.ai/zh/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "Free 方案只写可使用免费模型，未逐项标记每个模型的免费资格；不能把所有付费套餐热门模型都算作免费。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 16
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 · low",
+          "modelKey": "gpt-image-2.5",
+          "costs": [
+            3,
+            4,
+            5
+          ],
+          "use": "1K / 2K / 4K · Generator模式",
+          "access": "unknown",
+          "source": "https://www.lovart.ai/zh/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://www.lovart.ai/zh/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "赠送积分的模型适用范围未公开"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            },
+            {
+              "resolution": "2K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 · medium",
+          "modelKey": "gpt-image-2.5",
+          "costs": [
+            6,
+            12,
+            20
+          ],
+          "use": "1K / 2K / 4K · Generator模式",
+          "access": "unknown",
+          "source": "https://www.lovart.ai/zh/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://www.lovart.ai/zh/pricing",
+            "checkedAt": "2026-10-07",
+            "note": "赠送积分的模型适用范围未公开"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            },
+            {
+              "resolution": "2K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": "4K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-13",
+      "name": "Heydream",
+      "url": "https://heydream.im/zh/text-to-image/",
+      "dailyCredits": 20,
+      "quota": "20 credits/日 · 新用户另送 60 点数（一次性）",
+      "unit": "credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "GPT Image 2 · Low",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            10
+          ],
+          "use": "Low",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 Flare · Low",
+          "modelKey": "gpt-image-2.5-flare",
+          "costs": [
+            10
+          ],
+          "use": "Low",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 Sunburst · Low",
+          "modelKey": "gpt-image-2.5-sunburst",
+          "costs": [
+            10
+          ],
+          "use": "Low",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        },
+        {
+          "name": "Seedream 5.0 Pro",
+          "modelKey": "seedream-5.0-pro",
+          "costs": [
+            45
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 45
+            }
+          ]
+        },
+        {
+          "name": "Seedream 5.0",
+          "modelKey": "seedream-5.0",
+          "costs": [
+            40
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 40
+            }
+          ]
+        },
+        {
+          "name": "Seedream 4.5",
+          "modelKey": "seedream-4.5",
+          "costs": [
+            40
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 40
+            }
+          ]
+        },
+        {
+          "name": "Seedream 4.0",
+          "modelKey": "seedream-4.0",
+          "costs": [
+            30
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 30
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            50
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 50
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            30
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 30
+            }
+          ]
+        },
+        {
+          "name": "HiDream I1 Fast",
+          "modelKey": "hidream-i1-fast",
+          "costs": [
+            10
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        },
+        {
+          "name": "HiDream I1 Dev",
+          "modelKey": "hidream-i1-dev",
+          "costs": [
+            35
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 35
+            }
+          ]
+        },
+        {
+          "name": "HiDream I1 Full",
+          "modelKey": "hidream-i1-full",
+          "costs": [
+            60
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 60
+            }
+          ]
+        },
+        {
+          "name": "Qwen Image",
+          "modelKey": "qwen-image",
+          "costs": [
+            20
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        },
+        {
+          "name": "Qwen Image 2.0",
+          "modelKey": "qwen-image-2-0",
+          "costs": [
+            20
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        },
+        {
+          "name": "Qwen Image 2.0 Pro",
+          "modelKey": "qwen-image-2-0-pro",
+          "costs": [
+            40
+          ],
+          "use": "default page tier",
+          "access": "unknown",
+          "source": "https://heydream.im/zh/pricing/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://heydream.im/zh/pricing/",
+            "checkedAt": "2026-10-07",
+            "note": "公开页没有逐个模型标明签到20 credits是否可用于该模型，不能直接把成本换算为免费张数。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-15",
+      "name": "NoteGPT",
+      "url": "https://notegpt.io/cn/ai-image-generator",
+      "dailyCredits": 2,
+      "quota": "GPT Image 2 · 1K 每日免费 2 张",
+      "unit": "免费次数",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            1
+          ],
+          "use": "1K · 前 2 张",
+          "access": "free",
+          "source": "https://notegpt.io/quota-usage-policies",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://notegpt.io/quota-usage-policies",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-19",
+      "name": "Picai",
+      "url": "https://picai.com/app/ai-image-generator",
+      "dailyCredits": 5,
+      "quota": "5 credits/日 · 另有注册一次性 +15 credits；免费额度与模型价格有关",
+      "unit": "credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            3
+          ],
+          "use": "1024×1024 / low（economy）",
+          "access": "free",
+          "source": "https://www.picai.com/gpt-image",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://www.picai.com/gpt-image",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-20",
+      "name": "Lovino",
+      "url": "https://lovino.ai/dashboard/studio",
+      "dailyCredits": 3,
+      "quota": "3 credits/日 · 免费图片带水印；免费模型清单官方只给数量，部分模型需要付费计划",
+      "unit": "credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "Z-Image Turbo",
+          "modelKey": "z-image-turbo",
+          "costs": [
+            1
+          ],
+          "use": "图片生成",
+          "access": "free",
+          "source": "https://lovino.ai/blog/free-vs-paid-ai-image-credits",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://lovino.ai/blog/free-vs-paid-ai-image-credits",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 1
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            3
+          ],
+          "use": "low quality",
+          "access": "free",
+          "source": "https://lovino.ai/blog/free-vs-paid-ai-image-credits",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://lovino.ai/blog/free-vs-paid-ai-image-credits",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-22",
+      "name": "GPTimage2",
+      "url": "https://gptimage2.org/zh",
+      "dailyCredits": null,
+      "quota": "40 AI credits/月 · Free 计划最多 4 张图片；模型/质量不同会改变实际张数",
+      "unit": "AI credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "GPT Image 2.5",
+          "modelKey": "gpt-image-2.5",
+          "costs": [
+            20
+          ],
+          "use": "页面默认档位",
+          "access": "unknown",
+          "source": "https://gptimage2.org/nl",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://gptimage2.org/nl",
+            "checkedAt": "2026-10-07",
+            "note": "未公开确认免费套餐可用此模型"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-24",
+      "name": "EzRemove",
+      "url": "https://ezremove.ai/zh/image-to-image/",
+      "dailyCredits": 10,
+      "quota": "10 credits/日 · 官方免费计划每日登录获得 10 credits；未登录状态和具体模型资格仍可能受账户限制",
+      "unit": "credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "EzRemove 4.0",
+          "modelKey": "ezremove-4-0",
+          "costs": [
+            2,
+            4
+          ],
+          "use": "标准 / 高档",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            2,
+            4,
+            8
+          ],
+          "use": "不同质量/分辨率档",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/ai-models/gpt-image-2/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/ai-models/gpt-image-2/",
+            "checkedAt": "2026-10-07",
+            "note": "模型卡未带 VIP，但快捷选择区域出现 VIP 标签，官方页面口径不一致。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana",
+          "modelKey": "nano-banana",
+          "costs": [
+            4
+          ],
+          "use": "图像生成/编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2 Lite",
+          "modelKey": "nano-banana-2-lite",
+          "costs": [
+            4
+          ],
+          "use": "图像编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": "image-edit",
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "SeeDream 5.0",
+          "modelKey": "seedream-5.0",
+          "costs": [
+            4
+          ],
+          "use": "图像生成/编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "SeeDream 4.5",
+          "modelKey": "seedream-4.5",
+          "costs": [
+            4
+          ],
+          "use": "图像生成/编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "SeeDream 4.0",
+          "modelKey": "seedream-4.0",
+          "costs": [
+            3
+          ],
+          "use": "图像编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": "image-edit",
+              "outputs": null,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "name": "EzRemove 2.0",
+          "modelKey": "ezremove-2-0",
+          "costs": [
+            2
+          ],
+          "use": "图像生成/编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        },
+        {
+          "name": "Qwen",
+          "modelKey": "qwen",
+          "costs": [
+            2
+          ],
+          "use": "图像生成/编辑",
+          "access": "unknown",
+          "source": "https://ezremove.ai/zh/image-to-image/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://ezremove.ai/zh/image-to-image/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-27",
+      "name": "PhotoEditor",
+      "url": "https://photoeditorai.io/zh/ai-image-generator/",
+      "dailyCredits": 20,
+      "quota": "20 积分/日 · Pro/VIP 模型不能据此计为免费；非 VIP 仍应以实际账户生成按钮为准",
+      "unit": "积分",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "PhotoEditorAI 4.0",
+          "modelKey": "photoeditorai-4-0",
+          "costs": [
+            2
+          ],
+          "use": "图片生成",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": "image-edit",
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        },
+        {
+          "name": "PhotoEditorAI 3.0",
+          "modelKey": "photoeditorai-3-0",
+          "costs": [
+            2
+          ],
+          "use": "图片生成",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": "image-edit",
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana",
+          "modelKey": "nano-banana",
+          "costs": [
+            4
+          ],
+          "use": "角色一致性",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2 Lite",
+          "modelKey": "nano-banana-2-lite",
+          "costs": [
+            4
+          ],
+          "use": "快速编辑",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": "image-edit",
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            2,
+            4,
+            8
+          ],
+          "use": "不同质量/分辨率档",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            }
+          ]
+        },
+        {
+          "name": "SeeDream",
+          "modelKey": "seedream",
+          "costs": [
+            3
+          ],
+          "use": "4K 编辑",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "name": "SeeDream 4.5",
+          "modelKey": "seedream-4.5",
+          "costs": [
+            4
+          ],
+          "use": "空间与纹理",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "SeeDream 5.0",
+          "modelKey": "seedream-5.0",
+          "costs": [
+            4
+          ],
+          "use": "图片生成/编辑",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            }
+          ]
+        },
+        {
+          "name": "Qwen",
+          "modelKey": "qwen",
+          "costs": [
+            2
+          ],
+          "use": "角色一致性/工业设计",
+          "access": "unknown",
+          "source": "https://photoeditorai.io/zh/ai-image-generator/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "unconfirmed",
+            "api": "unconfirmed",
+            "source": "https://photoeditorai.io/zh/ai-image-generator/",
+            "checkedAt": "2026-10-07",
+            "note": "无会员标签不足以确认免费资格，需账户生成页确认"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-28",
+      "name": "Synthesia",
+      "url": "https://app.synthesia.io/",
+      "dailyCredits": null,
+      "quota": "500 credits/月 · 共享给视频、配音和图片功能；额度按计费周期重置，不结转",
+      "unit": "credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "FLUX.2",
+          "modelKey": "flux-2",
+          "costs": [
+            3
+          ],
+          "use": "1080p",
+          "access": "free",
+          "source": "https://docs.synthesia.io/docs/ai-playground",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://docs.synthesia.io/docs/ai-playground",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            20
+          ],
+          "use": "1080p",
+          "access": "free",
+          "source": "https://help.synthesia.io/en/articles/11972627-what-are-credits-and-how-do-they-work-on-self-serve-plans",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://help.synthesia.io/en/articles/11972627-what-are-credits-and-how-do-they-work-on-self-serve-plans",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-35",
+      "name": "Imgcrtor",
+      "url": "https://imgcreatorai.io/zh_TW",
+      "dailyCredits": 4,
+      "quota": "4 credits/日 · 登录后每日；访客试用数量未公开",
+      "unit": "credits",
+      "feature": "",
+      "checkedAt": "2026-10-07",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            2,
+            4,
+            6
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgcreatorai.io/zh_TW",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgcreatorai.io/zh_TW",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 Flare",
+          "modelKey": "gpt-image-2.5-flare",
+          "costs": [
+            2,
+            4,
+            6
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgcreatorai.io/zh_TW",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgcreatorai.io/zh_TW",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 Sunburst",
+          "modelKey": "gpt-image-2.5-sunburst",
+          "costs": [
+            2,
+            4,
+            6
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgcreatorai.io/zh_TW",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgcreatorai.io/zh_TW",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            2,
+            4,
+            6
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgcreatorai.io/zh_TW",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgcreatorai.io/zh_TW",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            4,
+            4,
+            8
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgcreatorai.io/zh_TW",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgcreatorai.io/zh_TW",
+            "checkedAt": "2026-10-07",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-47",
+      "name": "ImgAPI",
+      "url": "https://imgapi.vip/",
+      "dailyCredits": 30,
+      "quota": "登录赠送 30 积分 / 日",
+      "unit": "积分",
+      "feature": "默认渠道；Flare、Sunburst 选择官方渠道时双倍积分。按当前价格表核对。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2.5",
+          "modelKey": "gpt-image-2.5",
+          "costs": [
+            3,
+            8,
+            12
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgapi.vip/gpt-image2.5",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgapi.vip/gpt-image2.5",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 Flare",
+          "modelKey": "gpt-image-2.5-flare",
+          "costs": [
+            10,
+            12,
+            15
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgapi.vip/gpt-image2.5",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgapi.vip/gpt-image2.5",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 15
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2.5 Sunburst",
+          "modelKey": "gpt-image-2.5-sunburst",
+          "costs": [
+            12,
+            15,
+            18
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgapi.vip/gpt-image2.5",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgapi.vip/gpt-image2.5",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 15
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 18
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            6,
+            10,
+            12
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgapi.vip/gpt-image2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgapi.vip/gpt-image2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            12,
+            16,
+            20
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgapi.vip/banana-pro",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgapi.vip/banana-pro",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 12
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 16
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 20
+            }
+          ]
+        },
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            6,
+            8,
+            10
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://imgapi.vip/banana2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imgapi.vip/banana2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-48",
+      "name": "Zero Kit AI",
+      "url": "https://zerokit.ai/models/gpt-image-2",
+      "dailyCredits": 10,
+      "quota": "10 credits / 日",
+      "unit": "credits",
+      "feature": "免费账户仅1K；每日额度重置、不累计。仅限个人非商业用途。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2 · low",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            1
+          ],
+          "use": "1K · low",
+          "access": "free",
+          "source": "https://zerokit.ai/models/gpt-image-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://zerokit.ai/models/gpt-image-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 1
+            }
+          ]
+        },
+        {
+          "name": "GPT Image 2 · medium",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            8
+          ],
+          "use": "1K · medium",
+          "access": "free",
+          "source": "https://zerokit.ai/models/gpt-image-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://zerokit.ai/models/gpt-image-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": "medium",
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-49",
+      "name": "Avyn AI",
+      "url": "https://www.avynai.com/models/gpt-image-2",
+      "dailyCredits": null,
+      "quota": "20 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "注册赠送20积分；免费方案包含全部模型，下载带水印，仅限个人用途。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            11,
+            18,
+            28
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://www.avynai.com/models/gpt-image-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://www.avynai.com/models/gpt-image-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 11
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 18
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-50",
+      "name": "VdoBloom",
+      "url": "https://vdobloom.com/",
+      "dailyCredits": null,
+      "quota": "10 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "新账户赠送10积分，无需信用卡；免费下载带水印。额度与视频等工具共享。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            3,
+            5,
+            8
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://vdobloom.com/blog/gpt-image-2-text-to-image-pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://vdobloom.com/blog/gpt-image-2-text-to-image-pricing",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-51",
+      "name": "Polyfaced",
+      "url": "https://polyfaced.com/",
+      "dailyCredits": null,
+      "quota": "20 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "注册赠送20积分，免费GPT Image 2仅1K；积分与视频共享，仅个人用途。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            2
+          ],
+          "use": "1K",
+          "access": "free",
+          "source": "https://polyfaced.com/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://polyfaced.com/pricing",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-52",
+      "name": "AdSkull",
+      "url": "https://adskull.io/en/free/gpt-image-2",
+      "dailyCredits": null,
+      "quota": "50 credits / 月",
+      "unit": "credits",
+      "feature": "注册免费账户，无需信用卡；50积分每月重置，1K每张3积分。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            3
+          ],
+          "use": "1K",
+          "access": "free",
+          "source": "https://adskull.io/en/free/gpt-image-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://adskull.io/en/free/gpt-image-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-53",
+      "name": "CreateImage2",
+      "url": "https://createimage2.com/free",
+      "dailyCredits": null,
+      "quota": "10 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "注册后赠送10积分，无需信用卡；2K标准图每张10积分。另有免注册首张体验，不与注册额度重复汇总。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            10
+          ],
+          "use": "标准2K",
+          "access": "free",
+          "source": "https://createimage2.com/free",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://createimage2.com/free",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-54",
+      "name": "Seedream Studio",
+      "url": "https://seedreamv5.com/",
+      "dailyCredits": null,
+      "quota": "75 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "新账户完成手机验证后赠送75积分，无需信用卡；Pro标准档75积分，高尺寸档100积分。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "Seedream 5.0 Pro",
+          "modelKey": "seedream-5.0-pro",
+          "costs": [
+            75,
+            100
+          ],
+          "use": "标准 / 高尺寸",
+          "access": "free",
+          "source": "https://seedreamv5.com/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://seedreamv5.com/",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 75
+            },
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-55",
+      "name": "Seedream 5 Studio",
+      "url": "https://seedream-5.site/",
+      "dailyCredits": null,
+      "quota": "20 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "注册赠送20积分，四个模型共用余额；官网2K单张报价6积分。另可每UTC日领取1积分并累计，未折算成每日可生成张数。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "Seedream 5.0 Pro",
+          "modelKey": "seedream-5.0-pro",
+          "costs": [
+            6
+          ],
+          "use": "Auto · 2K · 文生图 · 1张",
+          "access": "free",
+          "source": "https://seedream-5.site/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://seedream-5.site/pricing",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "2K",
+              "quality": "auto",
+              "capability": "text-to-image",
+              "outputs": 1,
+              "cost": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-56",
+      "name": "Lumiet",
+      "url": "https://lumiet.net/model/nano-banana-pro",
+      "dailyCredits": null,
+      "quota": "10 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "新用户注册赠送10积分，免费仅1K/2K；4K需付费。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            10,
+            10
+          ],
+          "use": "1K / 2K",
+          "access": "free",
+          "source": "https://lumiet.net/model/nano-banana-pro",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://lumiet.net/model/nano-banana-pro",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-57",
+      "name": "Imya",
+      "url": "https://imya.ai/gptimage-2",
+      "dailyCredits": null,
+      "quota": "20 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "注册一次性20积分；普通及新账户每张13积分。分享和签到额外奖励不计入本额度。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            13
+          ],
+          "use": "普通账户默认规格",
+          "access": "free",
+          "source": "https://imya.ai/gptimage-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://imya.ai/gptimage-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-58",
+      "name": "Ombak",
+      "url": "https://ombak.ai/models/nano-banana-pro",
+      "dailyCredits": null,
+      "quota": "40 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "符合资格的新账户赠送40积分；每个分辨率单张均10积分，赠送资格以官网账户规则为准。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "Nano Banana Pro",
+          "modelKey": "nano-banana-pro",
+          "costs": [
+            10,
+            10,
+            10
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://ombak.ai/models/nano-banana-pro",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://ombak.ai/models/nano-banana-pro",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-59",
+      "name": "Yix AI",
+      "url": "https://yix.ai/models/nano-banana-2",
+      "dailyCredits": null,
+      "quota": "100 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "注册一次性赠送100积分；各分辨率共享额度。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            30,
+            50,
+            70
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://yix.ai/models/nano-banana-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://yix.ai/models/nano-banana-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 30
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 50
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-60",
+      "name": "Try AI Editor",
+      "url": "https://tryaieditor.com/gpt-image-2",
+      "dailyCredits": 5,
+      "quota": "5 credits / 日",
+      "unit": "credits",
+      "feature": "Google登录后每日签到领取5积分，无信用卡；高分辨率可用但单次需要更多积分。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            5,
+            10,
+            15
+          ],
+          "use": "1K / 2K / 4K",
+          "access": "free",
+          "source": "https://tryaieditor.com/gpt-image-2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://tryaieditor.com/gpt-image-2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 10
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-61",
+      "name": "Kansova AI",
+      "url": "https://kansova.com/pricing",
+      "dailyCredits": null,
+      "quota": "100 credits / 一次性额度",
+      "unit": "credits",
+      "feature": "免费账户起始100积分，无需信用卡，仅限个人用途；采用默认基础图像档，4K费用翻倍。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            2
+          ],
+          "use": "基础图像档",
+          "access": "free",
+          "source": "https://kansova.com/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://kansova.com/pricing",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-62",
+      "name": "Callirra",
+      "url": "https://callirra.com/nanobanana2",
+      "dailyCredits": null,
+      "quota": "15 credits / 周",
+      "unit": "credits",
+      "feature": "免费账户第一周18积分，以后每周15；全部模型可用、共享积分，免费图片带水印。张数按常规周额度计算。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "Nano Banana 2",
+          "modelKey": "nano-banana-2",
+          "costs": [
+            4,
+            5,
+            6
+          ],
+          "use": "1K / 2K / 4K · 搜索关闭",
+          "access": "free",
+          "source": "https://callirra.com/nanobanana2",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://callirra.com/nanobanana2",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": "1K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 4
+            },
+            {
+              "resolution": "2K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            },
+            {
+              "resolution": "4K",
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-63",
+      "name": "PhotoGenerAI",
+      "url": "https://photogenerai.com/pricing",
+      "dailyCredits": null,
+      "quota": "10 credits / 周",
+      "unit": "credits",
+      "feature": "每周10免费积分，无需注册；免费仅GPT Low，Medium/High和Banana 2需付费，图片公开生成。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2 · low",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            1
+          ],
+          "use": "Low · 默认输出规格",
+          "access": "free",
+          "source": "https://photogenerai.com/pricing",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://photogenerai.com/pricing",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": "low",
+              "capability": null,
+              "outputs": null,
+              "cost": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-64",
+      "name": "GPT Image 2 AI",
+      "url": "https://gptimage2ai.one/",
+      "dailyCredits": 30,
+      "quota": "30 credits / 日",
+      "unit": "credits",
+      "feature": "登录每日签到领取30积分，默认单次生成/编辑5积分，图片工具共享积分。",
+      "checkedAt": "2026-10-08",
+      "models": [
+        {
+          "name": "GPT Image 2",
+          "modelKey": "gpt-image-2",
+          "costs": [
+            5
+          ],
+          "use": "默认单次生成",
+          "access": "free",
+          "source": "https://gptimage2ai.one/",
+          "costVerified": true,
+          "accessMode": {
+            "web": "confirmed",
+            "api": "unconfirmed",
+            "source": "https://gptimage2ai.one/",
+            "checkedAt": "2026-10-08",
+            "note": "公开页面确认网页或免费方案可用；未据此推断免费 API。"
+          },
+          "specifications": [
+            {
+              "resolution": null,
+              "quality": null,
+              "capability": null,
+              "outputs": null,
+              "cost": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

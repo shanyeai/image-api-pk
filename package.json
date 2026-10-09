@@ -1,0 +1,13 @@
+{
+  "name": "image-api-pk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "generate": "node scripts/generate-readme.mjs",
+    "validate": "node scripts/validate-public-data.mjs",
+    "test": "node --test tests/publication.test.mjs",
+    "export": "node --experimental-strip-types scripts/export-public-data.mjs"
+  }
+}

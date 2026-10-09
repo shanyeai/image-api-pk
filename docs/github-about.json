@@ -1,0 +1,31 @@
+{
+  "recommendedRepositoryName": "image-api-pk",
+  "displayName": "APIpk · 生图模型与图片 API 中转站对比",
+  "description": "Compare AI image models and API providers: visual samples, sourced pricing, free tiers and API testing guides. GPT Image, Nano Banana, Seedream.",
+  "descriptionZh": "生图模型与图片 API 中转站对比：同题图片效果、渠道报价、免费额度与 API 测试。覆盖 GPT Image、Nano Banana、Seedream 等模型。",
+  "homepage": "https://apipk.site",
+  "topics": [
+    "ai-image-generation",
+    "text-to-image",
+    "image-models",
+    "model-comparison",
+    "api-comparison",
+    "api-pricing",
+    "gpt-image",
+    "nano-banana",
+    "seedream",
+    "image-api",
+    "free-tier",
+    "image-evaluation"
+  ],
+  "logo": "docs/assets/apipk-logo.webp",
+  "icon": "docs/assets/apipk-icon.svg",
+  "socialPreview": "docs/assets/github-social.png",
+  "brand": {
+    "accent": "#a44531",
+    "paper": "#faf8f3",
+    "ink": "#24241e"
+  },
+  "publicationStatus": "public content repository",
+  "licenseStatus": "rights retained; no open reuse license granted; third-party rights preserved"
+}

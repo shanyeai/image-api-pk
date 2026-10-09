@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "lastContentChangedAt": "2026-10-09T15:27:13.590Z",
+  "catalogSource": "reviewed website static catalog; runtime database and user submissions excluded",
+  "sourceCheckedAt": {
+    "oldestQuote": "2026-09-29",
+    "latestQuote": "2026-10-09",
+    "freeRules": "2026-10-08",
+    "sampleCollection": "2026-09-30T01:45:40.698Z"
+  },
+  "referenceFx": {
+    "base": "USD",
+    "quote": "CNY",
+    "rate": 6.7105,
+    "asOf": "2026-09-28",
+    "checkedAt": "2026-09-29",
+    "source": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=CNY",
+    "note": "Frankfurter 每日参考汇率；人民币显示为估算，不含支付手续费。"
+  },
+  "contentHashes": {
+    "models": "3c8c8bc6d6ad15d7693ce1b67b589d78217160898a8efddb76b631f68394c947",
+    "providers": "0a334bf95aa698dcb7b421963c83391879dd9318ead98f1784360527b8adbd87",
+    "quotes": "66cc5011b5ed62772b32f3bd80ca0dbf7e75e25e86cc9d09e8ea70d52e993d1b",
+    "free-channels": "43e56a2eeafb21349b11ca0b6d2f249994a0e0b87a906d9c260f0d6f6f5f8567",
+    "samples": "d9e3629a6cf0ecda786b6bf32a7ad2d4b7fa0fa31af104afbbb9f263f3e40fb3",
+    "exclusions": "357a1a21b6a528e78134aa7bea2b8732984579b67bc819c87f6931fdb8ca0b0c"
+  },
+  "latestContentChanges": {
+    "date": "2026-10-09T15:27:13.590Z",
+    "datasets": [
+      "models",
+      "providers",
+      "quotes",
+      "free-channels",
+      "samples",
+      "exclusions"
+    ]
+  },
+  "measurements": {
+    "paidCrossProviderBatches": 0,
+    "humanBlindVotes": 0,
+    "eloRanking": false
+  }
+}

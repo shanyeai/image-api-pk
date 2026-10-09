@@ -1,0 +1,20 @@
+name: Validate public catalog
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run validate
+      - run: npm run generate
+      - name: Generated documents match the committed snapshot
+        run: git diff --exit-code -- README.md docs
