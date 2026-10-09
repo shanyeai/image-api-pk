@@ -1,8 +1,8 @@
 {
   "recommendedRepositoryName": "image-api-pk",
   "displayName": "APIpk · 生图模型与图片 API 中转站对比",
-  "description": "Compare AI image models and API providers: visual samples, sourced pricing, free tiers and API testing guides. GPT Image, Nano Banana, Seedream.",
-  "descriptionZh": "生图模型与图片 API 中转站对比：同题图片效果、渠道报价、免费额度与 API 测试。覆盖 GPT Image、Nano Banana、Seedream 等模型。",
+  "description": "Find free AI image generators, compare model rankings and visual samples, and calculate image API costs, selling prices and gross margins. GPT Image, Nano Banana, Seedream.",
+  "descriptionZh": "查找免费 AI 生图网站与模型额度，对比能力排行、同题样图和 API 渠道报价，按生成量估算预算、按目标毛利率测算售价与利润。覆盖 GPT Image、Nano Banana、Seedream 等模型。",
   "homepage": "https://apipk.site",
   "topics": [
     "ai-image-generation",
@@ -16,7 +16,11 @@
     "seedream",
     "image-api",
     "free-tier",
-    "image-evaluation"
+    "image-evaluation",
+    "ai-image-generator",
+    "free-ai-tools",
+    "model-rankings",
+    "cost-calculator"
   ],
   "logo": "docs/assets/apipk-logo.webp",
   "icon": "docs/assets/apipk-icon.svg",

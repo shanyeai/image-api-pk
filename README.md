@@ -2,19 +2,65 @@
 
 # APIpk · 生图模型与图片 API 中转站对比
 
-按相同规格查生图 API 价格，用同一提示词直观看不同模型的图片效果。收录 GPT Image、Nano Banana、Seedream、Grok 等型号的渠道报价、免费入口和使用指南。
+哪里可以免费 AI 生图？哪个模型效果好？每月生成一批图片要花多少钱，卖什么价格才有利润？APIpk 整理免费生图网站与模型额度、能力排行、同题样图和图片 API 渠道报价，并提供成本与定价计算工具。覆盖 GPT Image、Nano Banana、Seedream、Grok 等型号。
 
-[访问网站](https://apipk.site) · [模型图片对比](https://apipk.site/model-test) · [免费生图入口](https://apipk.site/free-channels) · [比较方法](docs/methodology.md) · [最近变更](docs/changelog.md)
+[访问网站](https://apipk.site) · [免费生图](https://apipk.site/free-channels) · [能力排行](https://apipk.site/image-model-rankings) · [图片对比](https://apipk.site/model-test) · [成本与定价](https://apipk.site/pricing)
 
 ## 从你的需求开始
 
 | 想解决什么 | 去哪里看 |
 | --- | --- |
+| 找免费生图网站、GPT Image / Nano Banana 免费入口 | [免费生图目录](https://apipk.site/free-channels) / [免费规则与资格](docs/free-channels.md) |
+| 了解模型能力排名，缩小选型范围 | [生图模型能力排行榜](https://apipk.site/image-model-rankings) |
 | 直观看模型生成效果 | [图片矩阵](https://apipk.site/model-test) / [逐张样图与完整提示词](docs/samples.md) |
 | 比较同型号、同尺寸的渠道报价 | 下方价格摘要 / [全部模型](docs/models.md) / [渠道索引](docs/providers.md) |
-| 找免费额度，区分网页与 API | [免费规则与资格](docs/free-channels.md) / [网站筛选](https://apipk.site/free-channels) |
+| 看月度生成量是否在预算内 | [月度预算](https://apipk.site/pricing?mode=budget)，比较预计消耗与首次付款 |
+| 按目标毛利率定价，或按售价找有利润的渠道 | [测算售价](https://apipk.site/pricing?mode=margin) / [测算利润](https://apipk.site/pricing?mode=sale) |
 | 检查自己的 Key 能否调用 | [API 测试页](https://apipk.site/model-test)，由所选渠道计费 |
 | 选择 Nano Banana 或了解接入 | [使用指南](docs/guides.md) |
+
+## 哪里可以免费 AI 生图？
+
+想先试效果、暂时不想充值，可以从[免费生图目录](https://apipk.site/free-channels)找入口。当前公开快照收录 **30 个渠道**，支持按渠道或模型查找，查看 GPT Image、Nano Banana、Seedream 等型号的免费规则。
+
+| 选免费入口时要看什么 | 网站提供什么 |
+| --- | --- |
+| 我想用的模型，哪里能免费生成？ | 搜索渠道或模型，查看对应入口与公开来源 |
+| 免费额度多久刷新？ | 分开显示每日、每周、每月与一次性额度 |
+| 能生成多少张、支持什么规格？ | 对照规格与每张积分消耗，按已核实规则计算可生成张数 |
+| 网页能用，API 也免费吗？ | 分别标注网页与 API 的免费资格，并显示未确认状态 |
+
+不同模型可能共用同一份额度，免费张数不能直接相加。免费资格、张数和支持规格以页面所列来源及核对日期为准。
+
+![免费生图渠道、模型规格与可生成张数](docs/assets/free-channels.webp)
+
+[打开免费生图目录](https://apipk.site/free-channels) · [查看完整规则与资格](docs/free-channels.md)
+
+## 能力排行：先选适合自己的模型
+
+[生图模型能力排行榜](https://apipk.site/image-model-rankings)整理 [Arena Text-to-Image 榜单](https://arena.ai/leaderboard/text-to-image)的前 20 名，展示模型版本、分数、票数、分数不确定范围与排名区间，并标注来源更新时间和核对日期。已收录型号可继续打开价格对比；能匹配具体规格时优先查看同规格价格。
+
+可以先用排行选出候选模型，再用下面的同题样图判断风格、细节和提示词遵循情况，最后比较渠道报价。**能力排行来自外部 Arena，图片展示是公开样图**；两者来源与用途不同，模型排名也不能证明某个中转站的稳定性。
+
+![生图模型能力排行、分数、票数与价格入口](docs/assets/model-rankings.webp)
+
+## 成本与定价：预算够不够，售价怎么定？
+
+[成本与定价工具](https://apipk.site/pricing)适合做图片产品、接入生图 API，或估算批量生成成本。先选择模型、分辨率与质量档，再比较渠道；支持人民币和美元视图。
+
+| 计算方式 | 输入什么 | 能得到什么 |
+| --- | --- | --- |
+| [月度预算](https://apipk.site/pricing?mode=budget) | 预计每月生成张数、目标毛利率或售价 | 预计月消耗、有效单价、首次需付款、建议售价与单张毛利润 |
+| [测算售价](https://apipk.site/pricing?mode=margin) | 目标毛利率，例如 30% | 各渠道达到目标毛利率的建议售价，按分向上取整 |
+| [测算利润](https://apipk.site/pricing?mode=sale) | 既定售价，例如 ¥0.10 / 张 | 单张毛利润与毛利率，筛选成本低于售价的渠道 |
+
+例如，**假设 API 成本为 ¥0.03 / 张**：每月生成 1,000 张，API 消耗约 ¥30；目标毛利率 30% 时，按“成本 ÷（1 − 毛利率）”计算并向上取整到分，建议售价为 ¥0.05 / 张；若售价为 ¥0.10 / 张，单张毛利润为 ¥0.07，毛利率为 70%。这个算例未计支付手续费、重试和运营成本。
+
+有预算和利润目标时，可以按“**能力排行选候选 → 样图看效果 → 切换候选模型与规格算成本 → 对照预算及目标毛利**”的顺序，找到合适的模型与渠道。当前工具按所选模型计算；月度预算通过预计张数估算消耗，尚未提供输入总预算后自动推荐全部模型的功能。
+
+月度消耗与首次需付款分开显示：最低充值、整包购买或年付可能让首次付款高于当月消耗，未使用的余额不算已消耗成本。
+
+![成本与定价工具的模型、规格、毛利率与渠道计算结果](docs/assets/cost-pricing.webp)
 
 ## 同规格价格摘要
 
